@@ -1,0 +1,13 @@
+file rtos800.elf
+
+tar extended-remote:4242
+
+break main-ugfx.c:62
+break main-ugfx.c:64
+break main-ugfx.c:66
+break main-ugfx.c:176
+
+break phone.c:578
+break phone.c:591
+
+
